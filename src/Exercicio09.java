@@ -19,12 +19,12 @@ public class Exercicio09 {
         }
 
         System.out.println("Os valores presentes no vetores são: \n");
-        for (int num:vetor) {
-            System.out.printf("| %d ", num);
-            if (num % 20 ==0){
-                System.out.println();
-            }
+
+        System.out.println("| Posição |  Valor   |");
+        for (int i = 0; i< vetor.length; i++){
+            System.out.printf("|  %3d    |  %5d   |%n", i, vetor[i]);
         }
+
 
     }
 }
