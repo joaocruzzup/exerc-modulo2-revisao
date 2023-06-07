@@ -16,7 +16,7 @@ OBS.: O enunciado de cada exercício está como comentário na classe de cada ex
 6. [Exercicio 06](https://github.com/joaocruzzup/exerc-revisao-mod02/blob/main/src/Exercicio06.java) - Ler n números e informar a soma dos números no final
 7. [Exercicio 07](https://github.com/joaocruzzup/exerc-revisao-mod02/blob/main/src/Exercicio07.java) - Ler o nome do usuário e escrever n vezes
 8. [Exercicio 08](https://github.com/joaocruzzup/exerc-revisao-mod02/blob/main/src/Exercicio08.java) - Ler salários de n pessoas, ler o reajuste e calcular os novos salários
-9. [Exercicio 08](https://github.com/joaocruzzup/exerc-revisao-mod02/blob/main/src/Exercicio08.java) - Criar um vetor para armazenar 50 números inteiros
+9. [Exercicio 09](https://github.com/joaocruzzup/exerc-revisao-mod02/blob/main/src/Exercicio09.java) - Criar um vetor para armazenar 50 números inteiros
 
 ---
 
