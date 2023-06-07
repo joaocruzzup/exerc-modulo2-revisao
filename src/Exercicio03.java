@@ -12,6 +12,7 @@ public class Exercicio03 {
         for (int i = 0; i<notas.length; i++){
             System.out.printf("Digite a %dª nota (de 0 a 100): ", (i+1));
             notas[i] = sc.nextDouble();
+
             while (notas[i] < 0 || notas[i] >100){
                 System.out.println("Nota inválida! ");
                 System.out.printf("Digite a %dª nota (de 0 a 100): ", (i+1));
@@ -31,9 +32,9 @@ public class Exercicio03 {
         } else if (mediaMA >=60) {
             System.out.printf("Média de aproveitamento: %.2f %nConceito: C%n* Parabéns você foi aprovado! :D *", mediaMA);
         } else if (mediaMA >=40) {
-            System.out.printf("Média de aproveitamento: %.2f %nConceito: A%n* Infelizmente você foi reprovado :( *", mediaMA);
+            System.out.printf("Média de aproveitamento: %.2f %nConceito: D%n* Infelizmente você foi reprovado :( *", mediaMA);
         } else {
-            System.out.printf("Média de aproveitamento: %.2f %nConceito: A%n* Infelizmente você foi reprovado :( *", mediaMA);
+            System.out.printf("Média de aproveitamento: %.2f %nConceito: E%n* Infelizmente você foi reprovado :( *", mediaMA);
         }
     }
 }
