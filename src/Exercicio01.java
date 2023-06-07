@@ -8,6 +8,11 @@ public class Exercicio01 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
+        // cabeçalho
+        System.out.println("---------------------------------------------------------");
+        System.out.println("Boas vindas ao gerador de um valor com base em 2 números!");
+        System.out.println("---------------------------------------------------------\n");
+
         // Entrada de dados
         System.out.println("Digite o primeiro valor: ");
         int valorA = sc.nextInt();
@@ -19,7 +24,7 @@ public class Exercicio01 {
         int valorC = (valorA == valorB) ? (valorA + valorB) : (valorA * valorB);
 
         // Saida de dados
-        System.out.printf("A variável C é igual a: %d", valorC);
+        System.out.printf("A variável C gerada é igual a: %d", valorC);
 
     }
 }

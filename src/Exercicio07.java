@@ -5,6 +5,11 @@ public class Exercicio07 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
+        // cabeçalho
+        System.out.println("----------------------------------");
+        System.out.println("Boas vindas a repetidora de nomes!");
+        System.out.println("----------------------------------\n");
+
         System.out.println("Digite o seu nome: ");
         String nomeUsuario = sc.nextLine();
 

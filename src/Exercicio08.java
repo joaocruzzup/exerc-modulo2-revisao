@@ -12,6 +12,11 @@ public class Exercicio08 {
         List<Double> salariosReajustados = new ArrayList<>();
         List<Double> valoresReajuste = new ArrayList<>();
 
+        // cabeçalho
+        System.out.println("--------------------------------------------------");
+        System.out.println("Boas vindas a calculadora de salários reajustados!");
+        System.out.println("--------------------------------------------------\n");
+
         System.out.println("* Digite -1 quanto desejar parar de inserir salários *\n");
         int count = 0;
         boolean repeat = true;

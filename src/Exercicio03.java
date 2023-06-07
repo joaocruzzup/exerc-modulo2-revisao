@@ -15,6 +15,10 @@ public class Exercicio03 {
         Scanner sc = new Scanner(System.in);
         double[] notas = new double[3];
 
+        // cabeçalho
+        System.out.println("-----------------------------------------------------");
+        System.out.println("Boas vindas a calculadora de média de aproveitamento!");
+        System.out.println("-----------------------------------------------------\n");
 
         for (int i = 0; i<notas.length; i++){
             System.out.printf("Digite a %dª nota (de 0 a 100): ", (i+1));
@@ -27,8 +31,13 @@ public class Exercicio03 {
             }
         }
 
-        System.out.println("Digite a média dos exercícios: (de 0 a 100)");
+        System.out.println("Digite a média dos exercícios (de 0 a 100): ");
         double mediaME = sc.nextDouble();
+        while (mediaME < 0 || mediaME >100){
+            System.out.println("Média inválida! ");
+            System.out.println("Digite a média dos exercícios: (de 0 a 100)");
+            mediaME = sc.nextDouble();
+        }
 
         double mediaMA = (notas[0] + (notas[1]*2) + (notas[2] *3) + mediaME)/7;
 

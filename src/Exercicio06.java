@@ -10,6 +10,11 @@ public class Exercicio06 {
 
         List<Integer> numeros = new ArrayList<>();
 
+        // cabeçalho
+        System.out.println("-----------------------------------------------");
+        System.out.println("Boas vindas a calculadora de soma de n números!");
+        System.out.println("-----------------------------------------------\n");
+
         int soma = 0;
         boolean condicao = true;
         do{

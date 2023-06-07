@@ -6,6 +6,11 @@ public class Exercicio02 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
+        // cabeçalho
+        System.out.println("---------------------------------------");
+        System.out.println("Boas vindas a calculadora diferenciada!");
+        System.out.println("---------------------------------------\n");
+
         System.out.println("Digite um número: ");
         int num = sc.nextInt();
 

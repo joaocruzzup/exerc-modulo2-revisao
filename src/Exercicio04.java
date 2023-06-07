@@ -7,6 +7,11 @@ public class Exercicio04 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
+        // cabeçalho
+        System.out.println("-----------------------------------------------------");
+        System.out.println("Boas vindas a calculadora de soma de média de idades!");
+        System.out.println("-----------------------------------------------------\n");
+
         int soma = 0;
         for (int i =0; i<20; i++){
             System.out.printf("Digite a idade da %dª pessoa: ", (i+1));

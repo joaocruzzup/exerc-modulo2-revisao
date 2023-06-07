@@ -7,12 +7,16 @@ public class Exercicio09 {
     public static void main(String[] args) {
         int[] vetor = new int[50];
 
+        // cabeçalho
+        System.out.println("------------------------------------------------");
+        System.out.println("Boas vindas a impressora de números em um vetor!");
+        System.out.println("------------------------------------------------\n");
+
         int j = 0;
         for (int i = 101; i <=150; i++){
             vetor[j] = i;
             j++;
         }
-
 
         System.out.println("Os valores presentes no vetores são: \n");
         for (int num:vetor) {

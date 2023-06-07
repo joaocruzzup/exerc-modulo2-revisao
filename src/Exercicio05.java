@@ -9,6 +9,11 @@ public class Exercicio05 {
         List<Integer> numeros = new ArrayList<>();
         List<Integer> listaResultado = new ArrayList<>();
 
+        // cabeçalho
+        System.out.println("---------------------------------------------------");
+        System.out.println("Boas vindas a calculadora de números entre 0 e 100!");
+        System.out.println("---------------------------------------------------\n");
+
         for (int i = 0; i < 20; i++){
             System.out.printf("Digite o %dª número: ", (i+1));
             numeros.add(sc.nextInt());
