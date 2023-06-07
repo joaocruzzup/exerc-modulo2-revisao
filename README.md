@@ -2,11 +2,11 @@
 
 Esse repositório é referente a criação de programas criados para a lista de exercícios de revisão do módulo 02.
 
-OBS.: O enunciado de cada exercício está como comentário na classe de cada exercício.
+**OBS.: O enunciado de cada exercício está como comentário na classe de cada exercício**.
 
 ---
 
-# ⚙️ ALgoritmos criados
+# ⚙️ Algoritmos criados
 
 1. [Exercicio 01](https://github.com/joaocruzzup/exerc-revisao-mod02/blob/main/src/Exercicio01.java) - Criar uma variável C que depende dos valores das variáveis A e B
 2. [Exercicio 02](https://github.com/joaocruzzup/exerc-revisao-mod02/blob/main/src/Exercicio02.java) - Criar um algoritmo para alterar uma variável caso ela seja par ou impar
