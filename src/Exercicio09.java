@@ -24,7 +24,5 @@ public class Exercicio09 {
         for (int i = 0; i< vetor.length; i++){
             System.out.printf("|  %3d    |  %5d   |%n", i, vetor[i]);
         }
-
-
     }
 }
